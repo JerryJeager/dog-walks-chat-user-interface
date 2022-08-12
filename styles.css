@@ -108,7 +108,7 @@ body{
     /* align-self: center; */
 }
 #profile-name{
-    width: 90px;
+    width: 105px;
     height: 30px;
     align-self: center;
     display: flex;
@@ -128,7 +128,7 @@ body{
 }
 #radio-btn{
     width: 10px;
-    height: 22px;
+    height: 20px;
     align-self: center;
     /* border: 2px solid white; */
     display: flex; 
@@ -136,8 +136,8 @@ body{
     flex-direction: column;
 }
 #radio-btn-dot{
-    width: 5px;
-    height: 5px;
+    width: 3.5px;
+    height: 3.5px;
     background-color: hsl(289, 100%, 72%);
     border-radius: 50%;
 }
