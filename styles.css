@@ -45,6 +45,7 @@ body{
     z-index: 2;
     border-radius: 40px;
     padding: .2em;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.6);
 }
 #contact{
     height: 90px;
@@ -164,6 +165,7 @@ body{
     padding: .9em;
     color: hsl(276, 55%, 52%);
     font-size: .9rem;
+    display: hidden;
 }
 #right-pic-container{
     display: flex;
@@ -306,4 +308,184 @@ body{
     align-self: center;
     width: 10px;
     transform: rotate(-180deg);
+}
+.chat1{
+    transform: translateY(100%);
+    visibility: hidden;
+    animation-name: chat1Anime;
+    animation-duration: .3s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+}
+.chat2{
+    transform: translateY(100%);
+        visibility: hidden;
+        animation-name: chat2Anime;
+        animation-duration: 0.3s;
+            animation-delay: 0.7s;
+            animation-fill-mode: forwards;
+}
+.img1{
+    transform: translateX(100%);
+    animation-duration: 0.3s;
+    animation-delay: 1.2s;
+    animation-name: img1Anime;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+}
+.img2{
+    transform: translateX(100%);
+        animation-duration: 0.3s;
+        animation-delay: 1.17s;
+        animation-name: img2Anime;
+        visibility: hidden;
+        animation-fill-mode: forwards;
+
+}
+.img3{
+    transform: translateX(100%);
+        animation-duration: 0.3s;
+        animation-delay: 1.14s;
+        animation-name: img3Anime;
+        visibility: hidden;
+        animation-fill-mode: forwards;
+
+}
+.chat3{
+    transform: translateY(100%);
+        visibility: hidden;
+        animation-name: chat3Anime;
+        animation-duration: 0.3s;
+            animation-delay: 2s;
+            animation-fill-mode: forwards;
+}
+.chat4{
+    transform: translateY(100%);
+        visibility: hidden;
+        animation-name: chat4Anime;
+        animation-duration: 0.3s;
+            animation-delay: 2.4s;
+            animation-fill-mode: forwards;
+}
+.chat5{
+    transform: translateY(100%);
+        visibility: hidden;
+        animation-name: chat5Anime;
+        animation-fill-mode: forwards;
+        animation-duration: 0.3s;
+        animation-delay: 2.9s;
+}
+.chat6{
+    transform: translateY(100%);
+        /* visibility: hidden; */
+        animation-name: chat6Anime;
+        animation-duration: 0.3s;
+            animation-delay: 3.5s;
+            animation-fill-mode: forwards;
+}
+.chat7{
+    transform: translateY(100%);
+        /* visibility: hidden; */
+        animation-name: chat7Anime;
+        animation-duration: 0.3s;
+            animation-delay: 3.9s;
+            animation-fill-mode: forwards;
+}
+@keyframes chat1Anime{
+    0%{
+       visibility: visible;
+    }
+    100%{
+        transform: translateY(0%);
+        visibility: visible;
+    }
+}
+@keyframes chat2Anime{
+    0% {
+            visibility: visible;
+        }
+    
+        100% {
+            transform: translateY(0%);
+            visibility: visible;
+        }
+}
+@keyframes img1Anime{
+    0%{
+        visibility: visible;
+    }
+    100%{
+        transform: translateX(0%);
+        visibility: visible;
+    }
+}
+@keyframes img2Anime {
+    0% {
+        visibility: visible;
+    }
+
+    100% {
+        transform: translateX(0%);
+        visibility: visible;
+    }
+}
+@keyframes img3Anime {
+    0% {
+        visibility: visible;
+    }
+
+    100% {
+        transform: translateX(0%);
+        visibility: visible;
+    }
+}
+@keyframes chat3Anime {
+    0% {
+        visibility: visible;
+    }
+
+    100% {
+        transform: translateY(0%);
+        visibility: visible;
+    }
+}
+@keyframes chat4Anime {
+    0% {
+        visibility: visible;
+    }
+
+    100% {
+        transform: translateY(0%);
+        visibility: visible;
+    }
+}
+@keyframes chat5Anime {
+    0% {
+        visibility: visible;
+    }
+
+    100% {
+        transform: translateY(0%);
+        visibility: visible;
+    }
+}
+@keyframes chat6Anime {
+    0% {
+        visibility: visible;
+    }
+
+    100% {
+        transform: translateY(0%);
+        visibility: visible;
+    }
+}
+@keyframes chat7Anime {
+    0% {
+        visibility: visible;
+    }
+
+    100% {
+        transform: translateY(0%);
+        visibility: visible;
+    }
 }
