@@ -314,7 +314,7 @@ body{
     visibility: hidden;
     animation-name: chat1Anime;
     animation-duration: .3s;
-    animation-delay: 0.5s;
+    animation-delay: 1s;
     animation-fill-mode: forwards;
 }
 .chat2{
@@ -322,13 +322,13 @@ body{
         visibility: hidden;
         animation-name: chat2Anime;
         animation-duration: 0.3s;
-            animation-delay: 0.7s;
+            animation-delay: 1.7s;
             animation-fill-mode: forwards;
 }
 .img1{
     transform: translateX(100%);
     animation-duration: 0.3s;
-    animation-delay: 1.2s;
+    animation-delay: 2.2s;
     animation-name: img1Anime;
     visibility: hidden;
     animation-fill-mode: forwards;
@@ -336,7 +336,7 @@ body{
 .img2{
     transform: translateX(100%);
         animation-duration: 0.3s;
-        animation-delay: 1.17s;
+        animation-delay: 2.17s;
         animation-name: img2Anime;
         visibility: hidden;
         animation-fill-mode: forwards;
@@ -345,7 +345,7 @@ body{
 .img3{
     transform: translateX(100%);
         animation-duration: 0.3s;
-        animation-delay: 1.14s;
+        animation-delay: 2.19s;
         animation-name: img3Anime;
         visibility: hidden;
         animation-fill-mode: forwards;
@@ -356,7 +356,7 @@ body{
         visibility: hidden;
         animation-name: chat3Anime;
         animation-duration: 0.3s;
-            animation-delay: 2s;
+            animation-delay: 4s;
             animation-fill-mode: forwards;
 }
 .chat4{
@@ -364,7 +364,7 @@ body{
         visibility: hidden;
         animation-name: chat4Anime;
         animation-duration: 0.3s;
-            animation-delay: 2.4s;
+            animation-delay: 4.4s;
             animation-fill-mode: forwards;
 }
 .chat5{
@@ -373,14 +373,14 @@ body{
         animation-name: chat5Anime;
         animation-fill-mode: forwards;
         animation-duration: 0.3s;
-        animation-delay: 2.9s;
+        animation-delay: 4.9s;
 }
 .chat6{
     transform: translateY(100%);
         /* visibility: hidden; */
         animation-name: chat6Anime;
         animation-duration: 0.3s;
-            animation-delay: 3.5s;
+            animation-delay: 5.5s;
             animation-fill-mode: forwards;
 }
 .chat7{
@@ -388,7 +388,7 @@ body{
         /* visibility: hidden; */
         animation-name: chat7Anime;
         animation-duration: 0.3s;
-            animation-delay: 3.9s;
+            animation-delay: 5.9s;
             animation-fill-mode: forwards;
 }
 @keyframes chat1Anime{
