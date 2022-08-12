@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bai+Jamjuree:wght@400;600&family=Fredoka+One&family=Inter:wght@100&family=Jost:wght@100&family=Lexend+Deca:wght@100&family=Noto+Sans&family=Open+Sans:wght@300&family=Poppins:wght@100&family=Prompt:wght@100&family=Roboto:wght@100&family=Rubik:wght@300&display=swap');
 /* Removing the default styles on the html page */
 *{
     padding: 0;
@@ -11,6 +11,7 @@ body{
     /* background-color: hsl(264, 100%, 61%); */
     /* background-color: hsl(293, 100%, 63%); */
     height: 2800px;
+    font-family: 'Rubik', sans-serif;
 }
 #bg-1{
     width: 50%;
@@ -37,10 +38,10 @@ body{
     justify-content: space-between;
 }
 #chat-ui-bg{
-    width: 300px;
+    width: 330px;
     margin: 3em auto;
     background-color: hsl(0, 0%, 100%);
-    height: 600px;
+    height: 860px;
     z-index: 2;
     border-radius: 40px;
     padding: .2em;
@@ -58,13 +59,16 @@ body{
 }
 #chat-ui{
     width: 90%;
-    height: 565px;
+    height: 820px;
     margin: .9em auto;
     background-color: hsl(270, 20%, 96%);
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+}
+#chat-ui p{
+    font-weight: 600;
 }
 #screen-top{
     background-color: hsl(0, 0%, 100%);
@@ -140,4 +144,166 @@ body{
     height: 3.5px;
     background-color: hsl(289, 100%, 72%);
     border-radius: 50%;
+}
+#chat-bg{
+    width: 93%;
+    margin: .7em auto;
+    /* border: 2px solid black; */
+    height: auto;
+}
+#left-chat{
+    background-color: hsl(270, 20%, 90%);
+    width: 170px;
+    margin-bottom: .8em ;
+    height: auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 5px;
+    padding: .9em;
+    color: hsl(276, 55%, 52%);
+    font-size: .9rem;
+}
+#right-pic-container{
+    display: flex;
+    justify-content: flex-end;
+}
+#right-pic{
+    display: flex;
+    justify-content: space-between;
+    width: 170px;
+    
+}
+#dog1{
+    border-radius: 20px;
+    width: 50px;
+}
+#dog2{
+    border-radius: 20px;
+    width: 50px;
+}
+#dog3{
+    border: 2px solid transparent;
+    border-radius: 20px;
+    width: 50px;
+}
+#right-pic img{
+    width: inherit;
+    border-radius: 15px;
+}
+#right-chat-container{
+    display: flex;
+    flex-direction: column;
+}
+#right-chat {
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+    width: 150px;
+    margin-bottom: .8em;
+    height: auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 20px;
+    padding: .9em;
+    color: hsl(271, 15%, 43%);
+    font-size: .9rem;
+    align-self: flex-end;
+}
+#bill-card-container{
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#bill-card{
+    width: 210px;
+    height: 50px;
+    /* border: 2px solid grey; */
+    background: linear-gradient(-45deg,
+        hsl(264, 100%, 61%),
+        hsl(293, 100%, 63%));
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 5px;
+    padding: .3em;
+}
+#bill-card-info{
+    display: flex;
+    justify-content: space-between;
+    width: 190px;
+    margin: 0 auto;
+}
+#time{
+    display: flex;
+    justify-content: space-between;
+    width: 140px;
+    height: 40px;
+}
+#circle{
+    height: 30px;
+    width: 30px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 2px solid hsl(289, 100%, 72%);
+    align-self: center;
+}
+#bill-card p{
+    color: hsl(289, 100%, 72%);
+    font-size: .8rem;
+    font-weight: 600;
+    width: 90px;
+}
+#bill-card h1{
+    font-size: 1.1rem;
+    color: hsl(0, 0%, 100%);
+}
+#time-info{
+    align-self: center;
+}
+#price{
+    align-self: center;
+}
+#message-container{
+    margin-top: 2em;
+    width: 100%;
+    background-color: hsl(0, 0%, 100%);
+    height: 50px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: end;
+}
+#message-ui{
+    width: 85%;
+    height: 30px;
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+    padding-right: .4em;
+}
+#placeholder{
+    align-self: center;
+    width: 130px;
+    color: hsl(206, 6%, 79%);
+    font-size: .9rem;
+}
+#submit-btn{
+    width: 40px;
+    height: 40px;
+    align-self: center;
+    border-radius: 50%;
+    background-color: hsl(271, 36%, 24%);
+    display: flex;
+    justify-content: center;
+    
+}
+#angle-left{
+    color:hsl(0, 0%, 100%);
+    align-self: center;
+    width: 10px;
+    transform: rotate(-180deg);
 }
